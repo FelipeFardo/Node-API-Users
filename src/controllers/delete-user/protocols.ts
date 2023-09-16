@@ -1,5 +1,5 @@
 import { User } from "../../models/user";
 
-export interface IDeletedUserRepository {
-    deleteUser(id:string): Promise<User>
+export interface IDeleteUserRepository {
+  deleteUser(id: string): Promise<User>
 }
